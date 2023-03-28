@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: url(./images/sight.png), default;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 90%;
+    height: 150px;
+    border-bottom: 10px solid brown;
+}
+
+.beer {
+    width: 70px;
+    height: 125px;
+    background: url(./images/cola.jpg) center bottom/100px auto no-repeat;
+    padding: 25px 25px 0;
+    transform-origin: 50% bottom;
+    transition: 0.5s;
+}
+
+.number {
+    font-weight: bolder;
+}
+
+.die {
+    animation: died 0.4s forwards;
+}
+
+@keyframes died {
+    100% {
+        transform: rotateX(80deg);
+    }
+}
