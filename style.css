@@ -22,7 +22,7 @@ body {
     width: 70px;
     height: 125px;
     background: url(./images/cola.jpg) center bottom/100px auto no-repeat;
-    padding: 25px 25px 0;
+    padding: 10px 10px 0;
     transform-origin: 50% bottom;
     transition: 0.5s;
 }
